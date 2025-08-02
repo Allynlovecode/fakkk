@@ -100,14 +100,6 @@ if st.button("📨 Bagi aku baca"):
                 filter: blur(10px);
                 pointer-events: none;
             }
-            /* Overlay */
-            #overlay-blur {
-                position: fixed;
-                top: 0; left: 0;
-                width: 100%; height: 100%;
-                background-color: rgba(0, 0, 0, 0.4);
-                z-index: 998;
-            }
             /* Popup Box */
             .submission-box {
                 position: fixed;
@@ -133,7 +125,7 @@ if st.button("📨 Bagi aku baca"):
             <div id="overlay-blur"></div>
             <div class="submission-box">
                 <b>₊˚⊹ ᰔ Your damn reflection has been submitted ₊˚⊹ ᰔ</b><br><br>
-                So nanti <i>ayat manis kau</i>aku baca<br>
+                So nanti <i>ayat manis kau</i> aku baca<br>
                 Whether you are <b>worthy of forgiveness</b>.<br><br>
                 <i>Hmph</i> 
             </div>
